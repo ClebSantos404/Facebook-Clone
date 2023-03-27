@@ -5,8 +5,6 @@
 }
 
 body {
-  width: 100vw;
-  height: 100vh;
   background: #f0f2f5;
   font-family: Helvetica, Arial, sans-serif;
 }
@@ -17,58 +15,60 @@ main {
 }
 
 .mainHeader {
-  width: 50vw;
-  height: 100vh;
+  width: 60em;
+  height: 62em;
   display: flex;
   flex-direction: column;
+
 }
 
 .mainHeader .img {
-  width: 24.5em;
-  margin: 12em auto 0 auto;
+  width: 22em;
+  height: 7em;
+  margin: 12em auto 0 23.5em;
 }
 
 .mainHeader .description {
-  display: inline-block;
   width: 26.6em;
-  margin: 0 2.7em 0 auto;
-  font-size: 1.4em;
+  display: flex;
+  margin: 0 0 0 20em;
+  font-size: 1.3em;
 }
 
 .mainHeader .description h2 {
-  font-weight: 400;
+  font-weight: 300;
 }
 
 .mainBox {
-  margin-bottom: 10em; 
-  margin-left: 5em;
+  margin-bottom: 10em;
+  margin-left: 6em;
 }
 
 .loginBox {
-  width: 30em;
-  height: 27em;
+  width: 28em;
+  height: 26em;
   padding: 11px;
   display: flex;
   flex-direction: column;
   background: #fff;
-  border-radius: 10px;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;}
+  border-radius: 7px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 13px;}
 
 #email, #password {
-  width: 20em;
+  width: 21.5em;
   height: 3em;
-  border-radius: 9px;
-  border: 0.1em solid rgba(175, 175, 175, 0.534);
   padding: 20px;
-  font-size: 1.4em;
-  margin: 0.4em;
+  margin: 0.5em;
+  font-size: 1.2em;
+  border-radius: 5px;
+  border: 0.1em solid rgba(175, 175, 175, 0.534);
 }
 
 .loginBox .enter {
-  width: 17.5em;
-  height: 15em;
-  margin: 10px;
-  font-size: 1.6em;
+  width: 17em;
+  height: 4em;
+  margin: 10px auto;
+  font-size: 1.5em;
   font-weight: 600;
   border: none;
   border-radius: 10px;
@@ -85,27 +85,27 @@ main {
 }
 
 .loginBox .createAccount {
-  width: 95%;
-  height: 15em;
-  margin: 0.6em auto;
-  border-top: 1px solid rgb(201, 201, 201);
+  width: 26em;
+  height: 10em;
   display: flex;
+  margin: 1em auto;
+  border-top: 1px solid rgb(201, 201, 201);
 }
 
 .createAccount button {
-  font-size: 1.3em;
+  font-size: 1.2em;
   font-weight: 600;
-  border: none;
-  border-radius: 9px;
   background: rgb(9, 173, 45);
   color: white;
-  margin: 20px auto;
-  padding: 0.8em 0.5em;
+  margin: 1.5em auto auto auto;
+  padding: 0.8em;
+  border: none;
+  border-radius: 5px;
 }
 
 .descriptionToCreate {
   width: 28em;
-  text-align: center;
   display: flex;
-  margin: 2em;
+  text-align: center;
+  margin: 2em auto;
 }
