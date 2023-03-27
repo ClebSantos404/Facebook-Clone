@@ -1,0 +1,111 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background: #f0f2f5;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+main {
+  display: flex;
+  align-items: center;
+}
+
+.mainHeader {
+  width: 50vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.mainHeader .img {
+  width: 24.5em;
+  margin: 12em auto 0 auto;
+}
+
+.mainHeader .description {
+  display: inline-block;
+  width: 26.6em;
+  margin: 0 2.7em 0 auto;
+  font-size: 1.4em;
+}
+
+.mainHeader .description h2 {
+  font-weight: 400;
+}
+
+.mainBox {
+  margin-bottom: 10em; 
+  margin-left: 5em;
+}
+
+.loginBox {
+  width: 30em;
+  height: 27em;
+  padding: 11px;
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;}
+
+#email, #password {
+  width: 20em;
+  height: 3em;
+  border-radius: 9px;
+  border: 0.1em solid rgba(175, 175, 175, 0.534);
+  padding: 20px;
+  font-size: 1.4em;
+  margin: 0.4em;
+}
+
+.loginBox .enter {
+  width: 17.5em;
+  height: 15em;
+  margin: 10px;
+  font-size: 1.6em;
+  font-weight: 600;
+  border: none;
+  border-radius: 10px;
+  background: #087bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+.loginBox .newPass {
+  margin: 1em auto;
+  text-decoration: none;
+  color: #085aff;
+  font-size: 1em;
+}
+
+.loginBox .createAccount {
+  width: 95%;
+  height: 15em;
+  margin: 0.6em auto;
+  border-top: 1px solid rgb(201, 201, 201);
+  display: flex;
+}
+
+.createAccount button {
+  font-size: 1.3em;
+  font-weight: 600;
+  border: none;
+  border-radius: 9px;
+  background: rgb(9, 173, 45);
+  color: white;
+  margin: 20px auto;
+  padding: 0.8em 0.5em;
+}
+
+.descriptionToCreate {
+  width: 28em;
+  text-align: center;
+  display: flex;
+  margin: 2em;
+}
