@@ -95,6 +95,7 @@ main {
   background-color: #01b944;
   border: none;
   color: white;
+  cursor: pointer;
 }
 
 .createFor {
