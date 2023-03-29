@@ -5,107 +5,100 @@
 }
 
 body {
-  background: #f0f2f5;
-  font-family: Helvetica, Arial, sans-serif;
+  background-color: #f0f2f5;
 }
 
 main {
   display: flex;
+  gap: 5em;
+  padding: 13em 20em;
+  font-family: Helvetica, sans-serif;
+}
+
+.fbtext {
+  width: 38em;
+}
+
+.fbtext .box-img {
+  height: 6.5em;
+}
+
+.fbtext .box-img img {
+  width: 20em;
+}
+
+.fbtext h2 {
+  font-size: 2em;
+  font-weight: 200;
+  margin-left: 1em;
+}
+
+.box {
+  width: 28em;
+  display: flex;
+  flex-direction: column;
   align-items: center;
+  border-radius: 8px;
+  padding: 1em;
+  background-color: #fff;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  gap: 1em;
 }
 
-.mainHeader {
-  width: 60em;
-  height: 62em;
-  display: flex;
-  flex-direction: column;
-
-}
-
-.mainHeader .img {
-  width: 22em;
-  height: 7em;
-  margin: 12em auto 0 23.5em;
-}
-
-.mainHeader .description {
-  width: 26.6em;
-  display: flex;
-  margin: 0 0 0 20em;
+.box #email, #password, .enter {
+  width: 20em;
+  height: 2.8em;
+  border-radius: 5px;
+  padding: 10px;
   font-size: 1.3em;
+  border: 1px solid rgba(0, 0, 0, 0.212);
 }
 
-.mainHeader .description h2 {
-  font-weight: 300;
+#email:focus, #password:focus {
+  outline: 1px solid #2373eaa9;
 }
 
-.mainBox {
-  margin-bottom: 10em;
-  margin-left: 6em;
+.box .enter {
+  border: none !important;
+  background-color: #2371ea !important;
+  color: white !important;
 }
 
-.loginBox {
-  width: 28em;
-  height: 26em;
-  padding: 11px;
-  display: flex;
-  flex-direction: column;
-  background: #fff;
-  border-radius: 7px;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 13px;}
-
-#email, #password {
-  width: 21.5em;
-  height: 3em;
-  padding: 20px;
-  margin: 0.5em;
-  font-size: 1.2em;
-  border-radius: 5px;
-  border: 0.1em solid rgba(175, 175, 175, 0.534);
+.box a {
+  margin: 0.5em 0;
 }
 
-.loginBox .enter {
-  width: 17em;
-  height: 4em;
-  margin: 10px auto;
-  font-size: 1.5em;
-  font-weight: 600;
-  border: none;
-  border-radius: 10px;
-  background: #087bff;
-  color: #fff;
-  cursor: pointer;
-}
-
-.loginBox .newPass {
-  margin: 1em auto;
+.box a, a:visited {
   text-decoration: none;
-  color: #085aff;
-  font-size: 1em;
+  color: #2371ea;
 }
 
-.loginBox .createAccount {
-  width: 26em;
-  height: 10em;
+.box a:hover {
+  text-decoration: underline;
+}
+
+.box .btn {
+  width: 25em;
+  height: 5.5em;
   display: flex;
-  margin: 1em auto;
-  border-top: 1px solid rgb(201, 201, 201);
+  justify-content: center;
+  border-top: 0.1px solid rgba(0, 0, 0, 0.219);
+  padding: 1.5em 0;
 }
 
-.createAccount button {
+.btn button {
+  height: 2.7em;
+  border-radius: 7px;
+  padding: 15px 20px;
   font-size: 1.2em;
   font-weight: 600;
-  background: rgb(9, 173, 45);
-  color: white;
-  margin: 1.5em auto auto auto;
-  padding: 0.8em;
+  background-color: #01b944;
   border: none;
-  border-radius: 5px;
+  color: white;
 }
 
-.descriptionToCreate {
-  width: 28em;
-  display: flex;
+.createFor {
+  margin-top: 1.5em;
+  width: 30em;
   text-align: center;
-  margin: 2em auto;
 }
