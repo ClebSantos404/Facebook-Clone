@@ -1,6 +1,7 @@
 :root {
     --color-white: white;
     --color-gray: #f0f2f5;
+    
 }
 
 body {
@@ -30,4 +31,23 @@ body {
   flex-direction: column;
   align-items: center;
   gap: 1rem;
+}
+
+.content-login-box {
+  background-color: var(--color-white);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: rgb(0 0 0 / 10%) 0px 2px 4px, rgb(0 0 0 / 10%) 0px 8px 16px;
+}
+
+.inputs {
+  padding: 15px;
+  height: 22px;
+  border-radius: 6px;
+  border: 1px solid;
 }
